@@ -1,0 +1,100 @@
+{
+  "app": {
+    "name": "CutReview",
+    "tagline": "Video review with timecoded comments"
+  },
+  "nav": {
+    "main": "Main navigation",
+    "home": "Home",
+    "features": "Features",
+    "howItWorks": "How it works",
+    "faq": "FAQ",
+    "dashboard": "Projects",
+    "settings": "Settings",
+    "login": "Sign in",
+    "logout": "Sign out",
+    "getStarted": "Get started"
+  },
+  "actions": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "confirm": "Confirm",
+    "close": "Close",
+    "retry": "Try again",
+    "back": "Back",
+    "copy": "Copy",
+    "copied": "Copied",
+    "search": "Search",
+    "edit": "Edit",
+    "create": "Create"
+  },
+  "common": {
+    "loading": "Loading…",
+    "language": "Language",
+    "theme": "Theme",
+    "skipToContent": "Skip to content"
+  },
+  "theme": {
+    "dark": "Dark",
+    "light": "Light",
+    "system": "System"
+  },
+  "language": {
+    "uk": "Українська",
+    "en": "English"
+  },
+  "errors": {
+    "generic": "Something went wrong. Please try again.",
+    "network": "No internet connection. Check your network.",
+    "notFoundTitle": "Page not found",
+    "notFoundText": "This address doesn’t exist or the page has been moved.",
+    "goHome": "Go home",
+    "linkExpired": "This link has expired.",
+    "linkRevoked": "This link has been revoked by its owner.",
+    "unsupportedCodec": "Your browser can’t play this video format. Try MP4 (H.264/AAC).",
+    "fileTooLarge": "The file is too large. Maximum size: {max} MB.",
+    "uploadFailed": "The upload failed. Please try again."
+  },
+  "pages": {
+    "landing": "Landing",
+    "login": "Sign in",
+    "dashboard": "Projects dashboard",
+    "project": "Project (editor)",
+    "review": "Review (client)",
+    "settings": "Settings",
+    "notFound": "404"
+  },
+  "plurals": {
+    "comments": {
+      "one": "{count} comment",
+      "other": "{count} comments"
+    },
+    "versions": {
+      "one": "{count} version",
+      "other": "{count} versions"
+    }
+  },
+  "dev": {
+    "galleryTitle": "Component gallery (temporary)",
+    "param": "Param: {value}",
+    "buttons": "Buttons",
+    "primary": "Primary",
+    "secondary": "Secondary",
+    "ghost": "Ghost",
+    "danger": "Danger",
+    "disabled": "Disabled",
+    "loadingButton": "Loading",
+    "iconButton": "Settings",
+    "feedback": "Feedback",
+    "showSuccess": "Show success",
+    "showError": "Show error",
+    "toastSuccess": "Changes saved.",
+    "toastError": "Couldn’t save changes.",
+    "openModal": "Open modal",
+    "modalTitle": "Test dialog",
+    "modalText": "Focus stays inside the dialog. Esc closes it and page scrolling is locked.",
+    "modalField": "Focus target field",
+    "plurals": "Plurals (uk)"
+  }
+}

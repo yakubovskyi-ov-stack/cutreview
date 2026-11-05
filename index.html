@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="uk" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>CutReview — рев’ю відео з таймкодами</title>
+    <meta
+      name="description"
+      content="CutReview: клієнт залишає правки до точного таймкоду відео, монтажер відстежує статуси й експортує маркери в DaVinci Resolve."
+    />
+    <meta name="theme-color" content="#0b0d12" />
+    <meta name="color-scheme" content="dark light" />
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="CutReview" />
+    <meta property="og:title" content="CutReview — рев’ю відео з таймкодами" />
+    <meta
+      property="og:description"
+      content="Коментарі до точного кадру, статуси правок і експорт у DaVinci Resolve."
+    />
+    <meta property="og:locale" content="uk_UA" />
+    <meta name="twitter:card" content="summary" />
+
+    <!-- Apply saved theme/lang before first paint to avoid a flash. -->
+    <script>
+      (function () {
+        try {
+          var pref = localStorage.getItem('cutreview.theme') || 'dark';
+          var theme =
+            pref === 'system'
+              ? matchMedia('(prefers-color-scheme: light)').matches
+                ? 'light'
+                : 'dark'
+              : pref;
+          document.documentElement.setAttribute('data-theme', theme);
+          document.documentElement.lang = localStorage.getItem('cutreview.lang') || 'uk';
+        } catch (e) {
+          /* storage unavailable: keep defaults */
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <noscript>CutReview потребує JavaScript. / CutReview requires JavaScript.</noscript>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
